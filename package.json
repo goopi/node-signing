@@ -1,0 +1,12 @@
+{
+  "name": "signing",
+  "version": "0.0.1",
+  "description": "Sign and unsign your data",
+  "keywords": ["sign", "unsign", "token", "auth"],
+  "author": "Gustavo Leguizamon <gustavo@irbislab.com>",
+  "main": "lib/signing",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
