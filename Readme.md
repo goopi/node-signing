@@ -2,6 +2,22 @@
 
 Sign and unsign your data.
 
+## Use Cases
+
+Creation of tokens for Stateless Authentication.
+
+## Example
+
+```js
+var signing = require('signing');
+
+// Sign
+var val = signing.sign('hi', 'secret', 'salt');
+
+// Unsign
+signing.unsign(val, 'secret', 'salt'); // returns 'hi'
+```
+
 ## License
 
 (The MIT License)
